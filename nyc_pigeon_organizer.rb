@@ -9,6 +9,9 @@ def nyc_pigeon_organizer(data)
       if !hash[name][key]
         hash[name][key]=[]
       end
-      
+      hash[name][key]<< new_val.s 
+    end
+  end
+end
         
 end
