@@ -1,4 +1,5 @@
 def nyc_pigeon_organizer(data)
   hash={}
-  data.each do |item|
+  data.each do |key,value|
+    value.each do ||
 end
